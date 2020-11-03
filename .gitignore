@@ -1,0 +1,29 @@
+# Gradle & Avro
+.project
+.settings
+.classpath
+.gradle
+.idea
+*.iml
+*.iws
+*.ipr
+**/resources/**/mxe
+
+# Pegasus & Avro
+**/src/mainGenerated*
+**/src/testGenerated*
+
+# Added by mp-maker
+**/build
+/config
+*/i18n
+/out
+**/target
+
+# Mac OS
+**/.DS_Store
+/metadata-enrichment/.env
+/docker/metadata-enrichment/.env
+
+# Mkdocs
+/docs/metadata-platform-docs/site
